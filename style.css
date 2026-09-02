@@ -1,0 +1,85 @@
+:root{
+    --green:#006B5E;
+    --green-light:#0B8A79;
+    --bg:#121212;
+    --card:#1E1E1E;
+    --text:#F5F5F5;
+}
+
+*{
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+}
+
+header{
+    text-align:center;
+    padding:25px;
+}
+
+.logo{
+    font-size:3rem;
+}
+
+h1{
+    margin-top:10px;
+    color:var(--green-light);
+}
+
+main{
+    width:min(900px,95%);
+    margin:auto;
+}
+
+input{
+    width:100%;
+    padding:18px;
+    border:none;
+    border-radius:12px;
+    background:#252525;
+    color:white;
+    font-size:1.1rem;
+}
+
+.card{
+    background:var(--card);
+    margin-top:12px;
+    padding:15px;
+    border-radius:12px;
+    border-left:4px solid var(--green);
+}
+
+.alias{
+    color:#cccccc;
+    margin-bottom:5px;
+}
+
+.numero{
+    font-size:1.4rem;
+    color:var(--green-light);
+    font-weight:bold;
+}
+
+.button{
+    display:block;
+    width:220px;
+    margin:30px auto;
+    text-align:center;
+    text-decoration:none;
+    background:var(--green);
+    color:white;
+    padding:14px;
+    border-radius:10px;
+}
+
+.item{
+    background:var(--card);
+    margin:10px 0;
+    padding:12px;
+    border-radius:10px;
+}
