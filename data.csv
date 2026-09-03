@@ -2,7 +2,7 @@
 4389,Urologi, nefrologi, reumatologi, ambulatorio B
 4207,gastroenterologia,allergologia, ambulatorio A
 4345,sonno, pneumologia, ambulatorio SIDS, SIDS
-4277,gentilino
+4277,gentilino studio
 4392,ambulatorio chirurghi 1
 4226,ambulatorio chirurghi 2
 2602,audio1
@@ -18,14 +18,14 @@
 61649,chirurgia reparto
 61757,chirurgia sala
 61646,anestesisti,rianimatori,cicalino anestesista
-0266101029,CAV
+0266101029,CAV niguarda
 4459,ambulatorio cardio
 61422,cicalino cardiologia,cardiologia
 4208,segreteria cardiologia
-4237,DH studio medici, DH
-4331,ambulatorio DH, DH, ematologia ped
-4312,DH, infermiere DH
-4329,DH,DH marinoni, marinoni
+4237,DH studio medici,
+4331,ambulatorio DH, ematologia ped
+4312, infermiere DH
+4329,DH marinoni, marinoni
 2308,DEXA1
 2772,DEXA2
 2244,dermatologia
@@ -37,16 +37,21 @@
 61510,fisiatra,fisiatria
 61973,ginecologia, cicalino ginecologia
 3007,genetica
-0332393060,genetica2
+0332393060,genetica prenotazione
 4231,giovanna,segreteria pediatria
 2435,laboratorio,microbiologia
 3003,laboratorio microbiologia
-3004,laboratorio chimica-fisica
+3004,laboratorio chimica-fisica tecnici
 3002,emocromo
 3216,emocromo,laboratorio
+3213,laboratorio mediici
+2964,laboraotrio medici
+2370,laboratorio trasfusionale
+3099,laboratorio trasfusionale medici
+3170,laboratorio trasfusionale urgenze
 3000,laboratorio sierologie
 0332270635,laboratorio tossicologia
-3312301277,laboratorio ?
+3312301277,laboratorio microbiologia urgenze
 0315859420,ambulatorio maxillo-facciale como
 3709,medicina nucleare
 4410,NPI,Neuropsichiatria1
@@ -73,16 +78,16 @@
 4644,odontologia velate2,dentista2
 4643,odontologia velate3,denstista3
 61606,pediatria,cicalino pediatria
-4390, ring pediatria1
-4396,ring pediatria2
+4390, ring pediatria1-3
+4396,ring pediatria chirurgia
 4247,sala medici pediatria,studio medici pediatria
 4241,sala medici pediatria,studio medici pediatria
 4246,cucina pediatria
 4229,caposala pediatria
 0332299219,fax ponte
 4400,triage ponte
-4365,sala medici psp1
-4419,sala medici psp2
+4360,sala medici psp stanza 1
+4419,sala medici psp stanza 3
 61424,cicalino psp pediatria
 61598,cicalino tecnico radiologia,tecnico,Rx
 61619,radiologo,cicalino radiologo
@@ -97,7 +102,37 @@
 3487,RMN2
 3705,de palma nucleare
 4413,TIP,terapia intensiva pediatrica
+61508,autista prelievi
+800158060,assistenza NGH
 2420,trasfusionale,emobanca,trasfusioni
 4235,TC ponte, TAC ponte
 3357104842,tecnico riparatore, tuttofare
 3839,vulnologhe, vulvologia,lesioni difficili
+4333,burgassi,assistente sociale
+4296,ambulatorio test da sforzo
+2260,ced
+3420,cucina psp
+0255033147,de marchi VTEC1
+0255033145,de marchi VTEC2
+3355793835,de marchi VTEC3
+4203,direzione medica
+3050,farmacia1
+3051,farmacia2
+3052,farmacia3
+3054,farmacia4
+3055,farmacia5
+4446,segreteria ginecologia ponte
+0255032397,laboratorio microbiologia policlinico
+0382380365,Mondino di Pavia
+3355793835,nefrologia cicalino
+0332299410,segreteria NPI
+3626,pronto soccorso circolo amministraativo
+0281844812,PSP san paolo
+7257,radiologia tradate 1
+7258,radiologia tradate 2
+3334786867,tecnico neuroradiologia
+800890890,prenotazione visite libera professione
+800883300,CAV bergamo
+03821850329,CAV PAVIA
+
+
