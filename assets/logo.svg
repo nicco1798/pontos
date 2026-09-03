@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Pontos – ponte stilizzato">
+  <path d="M24,128 Q52,60 80,18 Q100,50 120,90 Q140,50 160,18 Q188,60 216,128"
+        fill="none" stroke="#D9A54F" stroke-width="3" stroke-linecap="round"/>
+  <g stroke="#D9A54F" stroke-width="1.5" opacity="0.85">
+    <line x1="40" y1="100" x2="40" y2="128"/>
+    <line x1="60" y1="58" x2="60" y2="128"/>
+    <line x1="100" y1="70" x2="100" y2="128"/>
+    <line x1="140" y1="70" x2="140" y2="128"/>
+    <line x1="180" y1="58" x2="180" y2="128"/>
+    <line x1="200" y1="100" x2="200" y2="128"/>
+  </g>
+  <rect x="70" y="26" width="20" height="104" fill="#C08A3E"/>
+  <polygon points="70,26 90,26 80,10" fill="#C08A3E"/>
+  <path d="M75,95 L75,68 Q75,55 80,50 Q85,55 85,68 L85,95 Z" fill="#14170F"/>
+  <rect x="150" y="26" width="20" height="104" fill="#C08A3E"/>
+  <polygon points="150,26 170,26 160,10" fill="#C08A3E"/>
+  <path d="M155,95 L155,68 Q155,55 160,50 Q165,55 165,68 L165,95 Z" fill="#14170F"/>
+  <rect x="20" y="128" width="200" height="12" rx="6" fill="#3E7C4A"/>
+</svg>

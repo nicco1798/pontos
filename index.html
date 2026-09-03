@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pontos · Rubrica telefonica</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <img src="assets/logo.svg" alt="" class="logo">
+  <h1>Pontos</h1>
+  <p class="tagline">Rubrica telefonica interna</p>
+</header>
+
+<main>
+  <section class="search-section">
+    <label for="search" class="sr-only">Cerca un numero</label>
+    <div class="search-box">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input id="search" type="text" placeholder="Cerca per ruolo o reparto… es. anestesista" autocomplete="off" autofocus>
+    </div>
+
+    <a href="rubrica.html" class="btn-rubrica">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+      </svg>
+      Rubrica — elenco completo
+    </a>
+
+    <p id="empty-state" class="empty-state">Inizia a digitare per cercare un numero — ad esempio «anestesista», «capo reparto» o «ambulatorio».</p>
+    <p id="no-results" class="no-results" hidden>Nessun risultato per «<span id="no-results-query"></span>». Prova un altro termine oppure consulta la <a href="rubrica.html">rubrica completa</a>.</p>
+
+    <div id="results" class="results" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer>Pontos · rubrica telefonica interna</footer>
+
+<script src="js/utils.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>
